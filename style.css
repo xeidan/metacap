@@ -1,0 +1,70 @@
+.gradient-background {
+    background: linear-gradient(300deg, #000000, #070E28, #296C7F);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .bg-blue-950 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(23 37 84 / var(--tw-bg-opacity));
+}
+
+.bg-cyanLight {
+  --tw-bg-opacity: 1;
+  background-color: hsl(180 66% 69% / var(--tw-bg-opacity));
+}
+  
+.bg-babyblue 
+{
+  background-color: #e8f1fe;
+}
+
+.bg-cyan {
+  --tw-bg-opacity: 1;
+  background-color: hsl(180 66% 49% / var(--tw-bg-opacity));
+}
+.text-cyan {
+  --tw-text-opacity: 1;
+  color: hsl(180 66% 49% / var(--tw-text-opacity));
+}
+.hover\:bg-cyan:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(180 66% 49% / var(--tw-bg-opacity));
+}
+
+/* WhatsApp button styles */
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px; /* Adjust the distance from the bottom as needed */
+  right: 20px; /* Adjust the distance from the right as needed */
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button img {
+  width: 30px; /* Adjust the size of the WhatsApp icon as needed */
+  height: 30px;
+}
+
+/* Hover effect */
+.whatsapp-button:hover {
+  background-color: #128c7e; /* Darker green color on hover */
+}

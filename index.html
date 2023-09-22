@@ -9,21 +9,26 @@
 	<meta property="og:url" content="https://metacapital.pro/">
 
 	<title>Meta Capital</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="js/script.js">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="script.js">
 	<link rel="icon" type="image/png" href="favicon.png">
 	<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/@themesberg/flowbite@1.2.0/dist/flowbite.min.css" />
 	<script src="https://cdn.tailwindcss.com"></script>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-</head>
-<body class="gradient-background">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+	</head>
+<body class="gradient-background body-font">
 	<div class="gradient-background">
 	<section id="nav" >
 		<!-- component -->
 	<nav class="relative px-4 py-4 flex justify-between items-center">
 		<a class="text-3xl font-bold leading-none" href="#">
-			<img src="images/logo.png" alt="" class="h-6 px-5">
+			<img src="logo.png" alt="" class="h-6 px-5">
 		</a>
 		<div class="lg:hidden">
 			<button class="navbar-burger flex items-center text-white p-3">
@@ -74,7 +79,7 @@
 		<nav class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 gradient-background border-r overflow-y-auto">
 			<div class="flex items-center mb-8">
 				<a class="mr-auto leading-none" href="#">
-					<img src="images/logo.png" alt="" class="h-4 ">
+					<img src="logo.png" alt="" class="h-4 ">
 				</a>
 				<button class="navbar-close">
 					<svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -192,15 +197,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
 			<div class="flex flex-col lg:flex-row justify-center  lg:items-start lg:py-2 gap-5">
 				<div class="image-container lg:order-last container px-5">
-				  <img src="./images/hero-img.png" class="mx-auto img-fluid" alt="Example image" width="500" height="350" loading="lazy">
+				  <img src="hero-img.png" class="mx-auto img-fluid" alt="Example image" width="500" height="350" loading="lazy">
 				</div>
 			</div>
 
 			<div class="mt-10 flex justify-between gap-3 lg:pb-20 md:pb-16 pb-10 px-8 lg:px-40">
-				<img class="w-16 lg:w-40" src="images/FTMO.png" loading="lazy" alt="ftmo">
-				<img class="w-16 lg:w-40" src="images/Fundednext.png" loading="lazy" alt="fn">
-				<img class="w-16 lg:w-40" src="images/Thefundedtrader.png" loading="lazy" alt="tff">
-				<img class="w-16 lg:w-40" src="images/E8.png" loading="lazy" alt="e8">
+				<img class="w-16 lg:w-40" src="FTMO.png" loading="lazy" alt="ftmo">
+				<img class="w-16 lg:w-40" src="Fundednext.png" loading="lazy" alt="fn">
+				<img class="w-16 lg:w-40" src="Thefundedtrader.png" loading="lazy" alt="tff">
+				<img class="w-16 lg:w-40" src="E8.png" loading="lazy" alt="e8">
 			</div>
 		  </section>
 	
@@ -331,7 +336,7 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
     <div id="myTabContent" class="px-10 py-10">
         <div class="bg-gray-50 p-4 rounded-lg hidden" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-			<img src="images/meta-ebooks.png" alt="">
+			<img src="meta-ebooks.png" alt="">
             <p class="text-gray-500 dark:text-gray-400 text-sm pt-4 pb-6">Explore our top-tier forex program with a comprehensive curriculum, expert guidance, interactive learning, setting you up for trading success.</p>
 			<div class="pb-8">
 				<a href="https://whatsapp.com/channel/0029Va97S4N9hXEzguWpul3S">
@@ -341,7 +346,7 @@ document.addEventListener('DOMContentLoaded', function() {
 				</div>
 		</div>
         <div class="bg-gray-50 p-4 rounded-lg " id="dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
-            <img src="images/meta-trade.png" alt="">
+            <img src="meta-trade.png" alt="">
 			<p class="text-gray-500 dark:text-gray-400 text-sm pt-4 pb-6">Our professional account management solutions ensure optimized forex investments and maximize your trading potential.</p>
 			<div class="pb-8">
 				<a href="https://whatsapp.com/channel/0029Va97S4N9hXEzguWpul3S">
@@ -351,7 +356,7 @@ document.addEventListener('DOMContentLoaded', function() {
 					</div>
 		</div>
         <div class="bg-gray-50 p-4 rounded-lg  hidden" id="settings" role="tabpanel" aria-labelledby="settings-tab">
-			<img src="images/meta-signals.png" alt="">
+			<img src="meta-signals.png" alt="">
             <p class="text-gray-500 dark:text-gray-400 text-sm pt-4 pb-6">Unlock profitability with our expert forex signals, providing real-time market insights for informed trading decisions.</p>
 			<div class="pb-8">
 				<a href="https://whatsapp.com/channel/0029Va97S4N9hXEzguWpul3S">
@@ -420,7 +425,7 @@ document.addEventListener('DOMContentLoaded', function() {
 				</div>
 			</div>
 			<div class=" bg-white   shadow-lg rounded-xl p-4 hover:bg-gradient-to-r hover:from-blue-200 hover:to-sky-50">
-				<h1 class="font-bold text-xl pb-4">3. Trade Plan, Testing and Journaling. </h1>
+				<h1 class="font-bold text-xl pb-4 text-gray-600">3. Trade Plan, Testing and Journaling. </h1>
 				<p>Access tested mechanical trade plans for day and swing trading.
 					 Validate with trusted data for consistent execution and improve through structured journaling.
 					<div class="font-bold text-xs text-start py-4 text-gray-400">
@@ -471,7 +476,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			<h1 class="text-3xl sm:text-5xl mb-6 font-extrabold  text-blue-900 text-center pt-0">Free 4 Day Course</h1>
 		</div>
 		<div class="py-5 lg:w-2/3 mx-auto">
-			<img src="images/meta-info.png" alt="">
+			<img src="meta-info.png" alt="">
 		</div>
 	</section>
 	
@@ -615,10 +620,10 @@ document.addEventListener('DOMContentLoaded', function() {
 		  <h1 class="text-center  p-2 pb-8 bg-blue-900 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">Account Management</h1>
 		</div>
 	 <div class="pb-24">
-		<div class="relative flex flex-col py-10  rounded-xl gradient-background md:mt-8 md:w-2/5 sm: ml-4 mr-4 md:mx-auto lg:mx-auto">
+		<div class="relative flex flex-col py-4  rounded-xl gradient-background md:mt-8 md:w-2/5 sm: ml-4 mr-4 md:mx-auto lg:mx-auto">
 		  <div class="rounded-rectangle p-10">
 			<div class="invest-image">
-			  <img src="images/metacard.png" class="d-block mx-lg-auto img-fluid" alt="homepage-credit-card" loading="lazy">
+			  <img src="metacard.png" class="" alt="homepage-credit-card" loading="lazy">
 			</div>
 			<h2 class="font-bold text-4xl text-gray-200">Over 90% of Traders fail the Challenge</h2>
 			<p class="text-gray-200 font-thin text-xs pt-8">Passing the prop firm challenges and getting paid is tough due to challenging rules and
@@ -653,7 +658,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="py-2 px-2 mb-12 bg-gray-50 border-b border-gray-100 rounded-lg transform transition duration-300 ease-in-out hover:-translate-y-2">
                     <div class="inline-block text-gray-900 mb-4">
                         <!-- image -->
-                        <img src="images/metrix1.jpg" alt="">
+                        <img src="metrix1.jpg" alt="">
                     </div>
 					<div class="flex items-center justify-center mt-6">
 						<a href="https://trader.ftmo.com/metrix?share=d9bf274bfa8f&lang=en" class="bg-black hover:bg-gray-500 px-8 py-2 text-sm text-gray-200 rounded font-normal transition duration-150" title="View">View</a>
@@ -666,7 +671,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="py-2 px-2 mb-12 bg-gray-50 border-b border-gray-100 rounded-lg transform transition duration-300 ease-in-out hover:-translate-y-2">
                     <div class="inline-block text-gray-900 mb-4">
                         <!-- image -->
-                        <img src="images/metrix2.jpg" alt="">
+                        <img src="metrix2.jpg" alt="">
                     </div>
 					<div class="flex items-center justify-center mt-6">
 						<a href="https://trader.ftmo.com/metrix?share=e611e0d80aae&lang=en" class="bg-black hover:bg-gray-500 px-8 py-2 text-sm text-gray-200 rounded font-normal transition duration-150" title="View">View</a>
@@ -679,7 +684,7 @@ document.addEventListener('DOMContentLoaded', function() {
 				<div class="py-2 px-2 mb-12 bg-gray-50 border-b border-gray-100 rounded-lg transform transition duration-300 ease-in-out hover:-translate-y-2">
                     <div class="inline-block text-gray-900 mb-4">
                         <!-- image -->
-                        <img src="images/metrix3.jpg" alt="">
+                        <img src="metrix3.jpg" alt="">
                     </div>
 					<div class="flex items-center justify-center mt-6">
 						<a href="https://trader.ftmo.com/metrix?share=ba6e76a6073d&lang=en" class="bg-black hover:bg-gray-500 px-8 py-2 text-sm text-gray-200 rounded font-normal transition duration-150" title="View">View</a>
@@ -692,7 +697,7 @@ document.addEventListener('DOMContentLoaded', function() {
 				<div class="py-2 px-2 mb-12 bg-gray-50 border-b border-gray-100 rounded-lg transform transition duration-300 ease-in-out hover:-translate-y-2">
                     <div class="inline-block text-gray-900 mb-4">
                         <!-- image -->
-                        <img src="images/metrix4.jpg" alt="">
+                        <img src="metrix4.jpg" alt="">
                     </div>
 					<div class="flex items-center justify-center mt-6">
 						<a href="https://trader.ftmo.com/metrix?share=b9a82cd1781f&lang=en" class="bg-black hover:bg-gray-500 px-8 py-2 text-sm text-gray-200 rounded font-normal transition duration-150" title="View">View</a>
@@ -705,7 +710,7 @@ document.addEventListener('DOMContentLoaded', function() {
 				<div class="py-2 px-2 mb-12 bg-gray-50 border-b border-gray-100 rounded-lg transform transition duration-300 ease-in-out hover:-translate-y-2">
                     <div class="inline-block text-gray-900 mb-4">
                         <!-- image -->
-                        <img src="images/metrix5.jpg" alt="">
+                        <img src="metrix5.jpg" alt="">
                     </div>
 					<div class="flex items-center justify-center mt-6">
 						<a href="https://trader.ftmo.com/metrix?share=04e5f1115845&lang=en" class="bg-black hover:bg-gray-500 px-8 py-2 text-sm text-gray-200 rounded font-normal transition duration-150" title="View">View</a>
@@ -718,7 +723,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="py-2 px-2 mb-12 bg-gray-50 border-b border-gray-100 rounded-lg transform transition duration-300 ease-in-out hover:-translate-y-2">
                     <div class="inline-block text-gray-900 mb-4">
                         <!-- image -->
-                        <img src="images/metrix6.jpg" alt="">
+                        <img src="metrix6.jpg" alt="">
                     </div>
 					<div class="flex items-center justify-center mt-6">
 						<a href="https://trader.ftmo.com/metrix?share=3d8abb098bce&lang=en" class="bg-black hover:bg-gray-500 px-8 py-2 text-sm text-gray-200 rounded font-normal transition duration-150" title="View">View</a>
@@ -797,27 +802,27 @@ document.addEventListener('DOMContentLoaded', function() {
             <!-- Item 1 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
                 <span class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
-                <img src="images/meta1.png" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                <img src="meta1.png" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
             </div>
             <!-- Item 2 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="images/meta2.png" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                <img src="meta2.png" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
             </div>
             <!-- Item 3 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="images/meta3.png" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                <img src="meta3.png" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
             </div>
 			<!-- Item 4 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="images/meta4.png" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                <img src="meta4.png" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
             </div>
 			<!-- Item 5 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="images/meta5.png" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                <img src="meta5.png" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
             </div>
 			<!-- Item 6 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                <img src="images/meta6.png" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                <img src="meta6.png" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
             </div>
         </div>
         <!-- Slider indicators -->
@@ -941,10 +946,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     </ul>
                     <p class="text-gray-700">Unlock profitability with our expert forex signals, offering real-time market insights for well-informed trading decisions and consistent financial growth.</p>
                     <div class="mt-6 flex justify-between gap-3">
-                        <img class="w-16 lg:w-24" src="images/FTMO.png" loading="lazy" alt="ftmo">
-                        <img class="w-16 lg:w-24" src="images/Fundednext.png" loading="lazy" alt="fn">
-                        <img class="w-16 lg:w-24" src="images/Thefundedtrader.png" loading="lazy" alt="tff">
-                        <img class="w-16 lg:w-24" src="images/E8.png" loading="lazy" alt="e8">
+                        <img class="w-16 lg:w-24" src="FTMO.png" loading="lazy" alt="ftmo">
+                        <img class="w-16 lg:w-24" src="Fundednext.png" loading="lazy" alt="fn">
+                        <img class="w-16 lg:w-24" src="Thefundedtrader.png" loading="lazy" alt="tff">
+                        <img class="w-16 lg:w-24" src="E8.png" loading="lazy" alt="e8">
                     </div>
                 </div>
             </div>
@@ -1217,7 +1222,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         <div class="flex flex-col items-center justify-between sm:flex-row">
             <a href="https://wa.me/message/DU76TOTHOS2IL1">
-                <img class="w-auto h-7" src="images/logo.png" alt="">
+                <img class="w-auto h-7" src="logo.png" alt="">
             </a>
 
             <p class="mt-4 text-sm text-gray-500 sm:mt-0 dark:text-gray-300">© Copyright 2023. All Rights Reserved.</p>
@@ -1227,7 +1232,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	</section>
 	<!-- component -->
     <a href="https://wa.me/message/DU76TOTHOS2IL1" class="whatsapp-button">
-        <img src="images/whatsapp-icon.png" alt="WhatsApp Icon">
+        <img src="whatsapp-icon.png" alt="WhatsApp Icon">
     </a>
 </body>
 </html>
